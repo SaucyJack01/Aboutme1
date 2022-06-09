@@ -1,3 +1,13 @@
 <html>
-  Hello World!
-<html>
+  <head>
+    <style>
+      img {float: right; width:200px;}
+    </style>
+    <script>
+    </script>
+  </head>
+  <body>
+    <img scr="">
+    <p>
+     Hello my name is Gavin and I am a highschool graduate curently attending commutity college.I am not the first of my family to attend college but i am the youngest. I am attending commutity college because I would like to aqaire a associate's degree in computer sience. With that I would like to transfer over to virgina tech to be able to get a masters in computer sience. The career I would like to go down is one of a software devolper, because it is very flexable. The reason I want to become a software devoloper is because I love video games. To me they are a art form, a way to put your soul out there in code for the world to see and i would like to put my soul into a computer program.
+    <p>
