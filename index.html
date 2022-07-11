@@ -1,11 +1,24 @@
 <html>
  <head>
   <script>
+   function makelion()
+   {
+   // I think the code is taking the source of cat and replacing it with the source of lion.
+   document.getElementById("change").src=lion
+   }
+   var cat="https://moderncat.com/wp-content/uploads/2014/03/tortoiseshell-kitten-closeup-p-46771525-940x640.jpg"
+   var lion="https://cdn.wallpapersafari.com/1/48/eQaEkv.jpg"
   </script>
    <style>
    </style>
  </head>
  <body>
-   gavin
+  <button onclick="makelion()">
+   Cat to lion
+  </button>      
+  <img id="change" src="https://moderncat.com/wp-content/uploads/2014/03/tortoiseshell-kitten-closeup-p-46771525-940x640.jpg">
+   <p> 
+    I can change this cat into a lion.
+   </p>
  </body>
 </html>
