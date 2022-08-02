@@ -1,13 +1,17 @@
 <html>
   <head>
-    <script>
-      function daynight()
-      { 
-       document.getElementById().style.color = "white";
-       document.getElementById().style=background-color:powderblue = "black";       
-      }
-      var= <h1>Day to Night</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies mi quis. Id leo in vitae turpis massa sed elementum tempus egestas. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Porttitor lacus luctus accumsan tortor posuere. Sit amet nisl purus in mollis nunc sed id. Netus et malesuada fames ac turpis egestas maecenas pharetra. Eu consequat ac felis donec et odio.</p><p>Amet est placerat in egestas erat imperdiet sed euismod nisi. Sed lectus vestibulum mattis ullamcorper. Elementum tempus egestas sed sed risus pretium quam vulputate. Dui vivamus arcu felis bibendum ut tristique. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Ut pharetra sit amet aliquam. Proin libero nunc consequat interdum varius sit amet mattis vulputate. Vestibulum rhoncus est pellentesque elit. Neque sodales ut etiam sit amet nisl. Eget nullam non nisi est sit amet. Feugiat nisl pretium fusce id velit. Duis at tellus at urna condimentum. Morbi tristique senectus et netus et malesuada fames. Quis hendrerit dolor magna eget.</p>
-    </script>
+   <script>
+    var colors = ["white", "black"];
+    var colorIndex = 0;
+    function daynight() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+   </script>
   </head>
   <body>
     <h1>Day to Night</h1>
